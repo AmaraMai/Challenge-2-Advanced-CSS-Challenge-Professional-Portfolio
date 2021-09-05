@@ -4,13 +4,10 @@ body {
 }
 
 section {
-    height: 500px;
-    background-color: white;
-    border: solid black 1px
-}
+    background-color: white;}
 
 .hero {
-    background-color: #1c1d25;
+    background-color: #706969;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -43,6 +40,10 @@ h1 {
     margin: 0;  
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     margin: 0;
     font-size: 35px;
@@ -65,7 +66,7 @@ p {
     width: 200px;
     height: 65px;
     border-radius: 30px;
-    background-color: coral;
+    background-color:coral;
     text-align: center;
     font-size: 35px;
     font-weight: 300;
@@ -87,6 +88,44 @@ p {
 }
 
 .logo{
-    height: 80px;
-    margin: 45px;
+    height: 100px;
+    margin: 55px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px gray ;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
 }
