@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="./Assets/style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3c5ef4ed8b.js" crossorigin="anonymous"></script>
         <title>Portfolio</title>
         <meta charset="utf-8">
     </head>
@@ -10,17 +11,20 @@
         <section class="hero">
             <nav>
                 <img class="logo" src="./Assets/Images/AMARA.png" alt="Amara Malekebu's logo"/>
-                <ul>
-                    <li>About me</li>
-                    <li>Projects</li>
-                    <li>Contact me</li> 
-                </ul>      
+                <ul id="nav-list">
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>      
             </nav>
             <div class="hero-area">
                 <div class="hero-text">
                     <h1>Amara Malekebu</h1>
                     <p>Full Stack Developer in training</p>
-                    <div class="button">About me</div>
+                    <div class="button"><a href="#about-me">About me</a></div>
             </div>
             <div class="socials">
                 <div><a href="https://github.com/AmaraMai"  class="social">
@@ -32,7 +36,7 @@
                 </div>
             </div>
         </section>
-        <section class="sub-section">
+        <section class="sub-section" id="about-me">
             <div class="information">
                 <h2>About me</h2>
                 <p>Hello! My name is Amara Malekebu. I am currently enrolled in a coding bootcamp to help me become a developer. I hope to use the skills from this class to help me make an dating app & game.</p>
@@ -49,32 +53,35 @@
                     <h3>Project one</h3>
                     <p class="subtext">This is my first application that I created for challenge one. This project is located in my github. I enjoyed making this project but it was hard.</p>
                     <hr>
-                    <p class="subtext"><a href="https://github.com/AmaraMai/Challenge--1">View here </a></p>
+                    <p class="subtext"><a class="project-link" href="https://github.com/AmaraMai/Challenge--1">View here</a></p>
                 </div>
                 <div class="project-card">
-                    <img class="project-image" src="/Assets/Images/Projecttwo Image (mainframe).jpg" alt="Project two Image, African-American lady standing by mainframe"/>
+                    <img class="project-image" src="./Assets/Images/Projecttwo Image (mainframe).jpg" alt="Project two Image, African-American lady standing by mainframe"/>
                     <h3>Project two</h3>
                     <p class="subtext">This is my project that I have not yet create. I hope I will enjoy making this project as well. I am very excited to see what I create</p>
                     <hr>
-                    <p class="subtext"><a href="https://github.com/AmaraMai">View here </a></p>
+                    <p class="subtext"><a  class="project-link" href="https://github.com/AmaraMai">View here </a></p>
                 </div>
                 <div class="project-card">
-                  <img class="project-image" src="/Assets/Images/Project three Image (laptop).jpg" alt="Project three Image, labtop sitting on a table"/>
+                  <img class="project-image" src="./Assets/Images/Project three Image (laptop).jpg" alt="Project three Image, labtop sitting on a table"/>
                   <h3>Project Three</h3>
                   <p class="subtext">This is my project that I have not yet create. I hope I will enjoy making this project as well. I am very excited to see what I create</p>
                   <hr/>
-                  <p class="subtext"><a href="https://github.com/AmaraMai">View here </a></p>
+                  <p class="subtext"><a class="project-link" href="https://github.com/AmaraMai">View here </a></p>
                 </div>
                 <div class="project-card">
-                  <img class="project-image" src="/Assets/Images/Project four Image (Phone).jpg" alt="Project four Image, African-American laying on back looking at phone"/>
+                  <img class="project-image" src="./Assets/Images/Project four Image (Phone).jpg" alt="Project four Image, African-American laying on back looking at phone"/>
                   <h3>Project Four</h3>
                   <p class="subtext">This is my project that I have not yet create. I hope I will enjoy making this project as well. I am very excited to see what I create</p>
                   <hr/>
-                  <p class="subtext"><a href="https://github.com/AmaraMai">View here </a></p>
+                  <p class="subtext"><a class="project-link" href="https://github.com/AmaraMai">View here </a></p>
                 </div>
             </div>
         </section>
-        <footer></footer>
+        <footer id="contact-me">
+            <h2>Contact me</h2>
+            <p>amara.mai.malekebu@gmail.com</p>
+        </footer>
   <script src="./Assets/app.js"></script>
     </body>
 </html>
