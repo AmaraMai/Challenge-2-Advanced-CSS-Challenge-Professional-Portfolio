@@ -50,6 +50,11 @@ p {
     font-weight: 300;
 }
 
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .hero-area {
     display: flex;
     height: 100%;
@@ -123,9 +128,22 @@ p {
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px gray ;
+    margin: 10px;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 300px;
+    border-radius: 250px;
+
+}
+
+.hr {
+    margin-left: 20px;
+    margin-right: 20px;
 }
