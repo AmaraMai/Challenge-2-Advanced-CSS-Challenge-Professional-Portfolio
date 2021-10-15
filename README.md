@@ -1,5 +1,4 @@
 # Challenge-2-Advanced-CSS-Challenge-Professional-Portfolio
-# CHALLENGE#1
 
 ​
 
@@ -19,9 +18,6 @@ We were asked to create a webpage that deploys my portfolio. For the purposes of
 
 ## screenshot
 
-​​
-To add or replace images, please click into the asset folder and edit as need.
-![screenshot of asset images folder](assets/images/screenshot.png)
 
 ## License
 
