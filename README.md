@@ -19,6 +19,8 @@ This project has been deployed to GitHub Pages.
 * [Deployed GitHub](https://amaramai.github.io/Challenge-2-Advanced-CSS-Challenge-Professional-Portfolio/)
 * [Demo Video](https://drive.google.com/file/d/19SoMzaJ--VXdyvT_0ke2OvojpYJT02ec/view)
 
+![Main](Assets/Images/Professional-Portfolio.png)
+
 
 ## Screencast of portfolio 
 
